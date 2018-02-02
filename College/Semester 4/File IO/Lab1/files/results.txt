@@ -1,0 +1,4 @@
+Total is: 65.0
+Max is: 15.0
+Min is: 11.0
+Average is: 13.0

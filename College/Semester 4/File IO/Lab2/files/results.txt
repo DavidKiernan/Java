@@ -1,0 +1,4 @@
+The sum is: 65
+The min is: 11
+The Max is: 15
+The Avg is: 13
