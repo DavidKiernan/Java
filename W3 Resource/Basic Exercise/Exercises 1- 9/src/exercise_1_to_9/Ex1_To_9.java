@@ -14,9 +14,11 @@ public class Ex1_To_9 {
         System.out.println("Hello \nDavid Kiernan");
         
         //Q2. Write a Java program to print the sum of two numbers. eg 74+36
+        System.out.println("Q2. add two numbers and print on the screen");
         System.out.println("Adding: " + (74 + 36));
         
         //Q3. Write a Java program to divide two numbers and print on the screen. eg 50 / 3
+        System.out.println("Q3. divide two numbers and print on the screen");
         System.out.println("Division: " + (50 / 3));
         
         /*Q4. Write a Java program to print the result of the following operations.
@@ -25,16 +27,16 @@ public class Ex1_To_9 {
            c. 20 + -3*5 / 8 
            d. 5 + 15 / 3 * 2 - 8 % 3
         */ 
-        
+        System.out.println("Q4. result of the following operations");
         System.out.println("A: " +( -5 + 8 * 6));
         System.out.println("B: " + (55+9)%9);
         System.out.println("C: " + (20 +(-3*5)/8));
         System.out.println("D: " + (5 + 15 / 3*2-8%3));
         
         //Q5. Write a Java program that takes two numbers as input and display the product of two numbers Eg 25 * 5
-        System.out.println("Q5 \nInput First Number: ");
+        System.out.print("Q5 takes two numbers as input and display the product of two numbers \nInput First Number: ");
         int num1 = in.nextInt();
-        System.out.println("Input Second Number");
+        System.out.print("Input Second Number");
         int num2 = in.nextInt();
         System.out.println(num1 + " x " + num2 + " = " + num1*num2);
         
@@ -45,9 +47,9 @@ public class Ex1_To_9 {
            d. 125 / 24 = 5
            e. 125 mod 24 = 5
         */
-        System.out.println("Q6 \nInput First Number: ");
+        System.out.print("Q6 print the sum (addition), multiply, subtract, divide and remainder of two numbers\nInput First Number: ");
         int num3 = in.nextInt();
-        System.out.println("Input Second Number");
+        System.out.print("Input Second Number");
         int num4 = in.nextInt();
         System.out.println("A: " + num3 + " + " + num4 + " = " + (num3+num4));
         System.out.println("B: " + num3 + " - " + num4 + " = " + (num3-num4));
@@ -55,8 +57,8 @@ public class Ex1_To_9 {
         System.out.println("D: " + num3 + " / " + num4 + " = " + num3/num4);
         System.out.println("E: " + num3 + " mod " + num4 + " = " + num3%num4);
         
-        //Q7. Write a Java program that takes a number as input and prints its multiplication table upto 10
-        System.out.println("Q7 \nInput Number: ");
+        //Q7. Write a Java program that takes a number as input and prints its multiplication table up to 10
+        System.out.println("Q7 takes a number as input and prints its multiplication table up to 10\nInput Number: ");
         int q7Num = in.nextInt();
         for(int i = 0; i < 10; i++) 
         {
@@ -69,7 +71,7 @@ public class Ex1_To_9 {
          J  J  aaaaa   V V  aaaaa                                                
           JJ  a     a   V  a     a
         */
-        
+        System.out.println("Q8 program to display a pattern");
         System.out.println("   J    a   v     v  a ");
         System.out.println("   J   a a   v   v  a a");
         System.out.println("J  J  aaaaa   V V  aaaaa");
@@ -80,7 +82,7 @@ public class Ex1_To_9 {
             Expected Output
             2.138888888888889
         */
-        
+        System.out.println("Q9 compute the specified expressions and print the output");
         System.out.println(((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5)));
     }
     
